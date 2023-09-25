@@ -1,1 +1,1 @@
-# FileBrowser
+# caboose-plugin-template
