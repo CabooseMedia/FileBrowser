@@ -5,7 +5,7 @@ const helloworld = new CabooseSDK({
 });
 
 helloworld.on(PluginEvents.READY, () => {
-    console.log('Hello, world!');
+    console.log('Hello, world! (updated successfully)');
 });
 
 export default helloworld;
