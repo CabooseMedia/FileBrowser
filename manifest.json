@@ -1,0 +1,6 @@
+{
+    "id": "caboose-plugin-template",
+    "repository": "https://github.com/CabooseMedia/caboose-plugin-template.git",
+    "name": "Caboose Plugin Template",
+    "description": "A template for Caboose plugins."
+}
