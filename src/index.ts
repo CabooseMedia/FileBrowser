@@ -1,11 +1,9 @@
-import { CabooseSDK, PluginEvents } from '@caboosemedia/sdk'
+import { CabooseSDK } from '@caboosemedia/sdk'
 
-const helloworld = new CabooseSDK({
-    id: 'caboose-plugin-template',
-});
+export class HelloWorld extends CabooseSDK {
 
-helloworld.on(PluginEvents.READY, () => {
-    console.log('Hello, world! (updated successfully)');
-});
+    public async start() {
+        console.log('Hello, world!');
+    }
 
-export default helloworld;
+}
